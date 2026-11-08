@@ -28,3 +28,7 @@ To check the chain, compare the previous night's file with this night's `prev`:
 
 - **That a row was right when it was written.** It proves only that the row has not changed since.
 - **When a night was published.** The time comes from this repository's push history on GitHub, not from the clock of the machine that made it.
+
+## History cannot be rewritten
+
+Since 8 Nov 2026 GitHub blocks force pushes to and deletion of `main` in this repository, for its owner too. Nights can only be added.
